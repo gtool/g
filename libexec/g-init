@@ -87,8 +87,10 @@ EOS
 case "$shell" in
 bash )
   echo "alias g=_g_wrapper"
+  echo "alias pr='g pr'"
   ;;
 zsh )
+  echo "alias pr='g pr'"
   echo "g=_g_wrapper"
   ;;
 esac
