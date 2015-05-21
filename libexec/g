@@ -25,7 +25,10 @@ export PATH="${libexec_path}:$PATH"
 
 command="$1"
 case "$command" in
-"" | "-h" | "--help" )
+"" )
+  exec g-o
+  ;;
+"-h" | "--help" )
   exec g-help
   ;;
 * )
