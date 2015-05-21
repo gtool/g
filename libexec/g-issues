@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -e
+source "$_G_ROOT/share/g/functions.sh"
+# Usage: g issues
+# Summary: Work with "Issues"
+# Help: Available subcommands:
+#
+#    g issues (g i)         # open "Issues" page
+#    g issues new (g i n)   # open new issue
+
+case $1 in
+  "" )
+    open_github "issues";;
+  "new" | "n" )
+    open_github "issues/new";;
+# Provide g completions
+  "--complete" )
+    echo n
+    echo new
+    ;;
+esac
