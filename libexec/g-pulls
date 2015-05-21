@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e
+source "$_G_ROOT/share/g/functions.sh"
+# Usage: g pr
+# Summary: Open "Pull Requests" page
+
+open_github "pulls"
