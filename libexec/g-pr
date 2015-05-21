@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -e
+source "$_G_ROOT/share/g/functions.sh"
+# Usage: g pr [subcommand]
+# Summary: Open current Pull Request (or "Create Pull Request" page with current branch)
+
+branch_name=$(git rev-parse --abbrev-ref HEAD)
+open_github "pull/$branch_name"

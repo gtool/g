@@ -31,14 +31,14 @@ git clone git@github.com:gtool/g.git ~/.gtool
 Initialize `g` in your profile. Bash users:
 
 ```bash
-echo 'eval "$($HOME/.g-tool/bin/g init -)"' >> ~/.bash_profile
+echo 'eval "$($HOME/.gtool/bin/g init -)"' >> ~/.bash_profile
 exec bash
 ```
 
 Zsh users:
 
 ```bash
-echo 'eval "$($HOME/.fs-tool/bin/fs init -)"' >> ~/.zshenv
+echo 'eval "$($HOME/.gtool/bin/g init -)"' >> ~/.zshenv
 source ~/.zshenv
 ```
 
