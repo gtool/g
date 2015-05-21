@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -e
+source "$_G_ROOT/share/g/functions.sh"
+# Usage: g o
+# Summary: Open current repo on Github
+
+branch_name=$(git rev-parse --abbrev-ref HEAD)
+open_github

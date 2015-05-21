@@ -45,7 +45,7 @@ source ~/.zshenv
 
 ## Help
 
-Run `g` without any arguments or run `g help` to explore available commands.
+Run `g help` to explore available commands.
 `g help <command_name>` prints usage and other command documentation.
 
 
