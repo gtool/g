@@ -16,7 +16,7 @@ The best way to get `g` is via Homebrew:
 
 ```bash
 brew tap gtool/g
-brew install gtool/g
+brew install g
 ```
 
 And then follow the instructions in `caveats` section.
