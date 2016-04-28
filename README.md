@@ -54,3 +54,4 @@ Run `g help` to explore available commands.
 `g` is maintained by [Vasily Polovnyov](https://github.com/vast)
 and [Max Prokopiev](http://github.com/maxprokopiev). It is extracted from
 [fs/fs-tool](https://github.com/fs/fs-tool) and based on [sub](https://github.com/basecamp/sub).
+Hello
