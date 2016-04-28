@@ -2,7 +2,12 @@
 set -e
 source "$_G_ROOT/share/g/functions.sh"
 # Usage: g pr
-# Summary: Open current Pull Request (or "Create Pull Request" page with current branch)
+# Summary: Open current Pull Request or publish branch and open "Create Pull Request" page
 
 branch_name=$(git rev-parse --abbrev-ref HEAD)
+
+if ! $(git ls-remote --exit-code . origin/$branch_name &> /dev/null); then
+  git push origin -u $branch_name
+fi
+
 open_github "pull/$branch_name"

@@ -2,7 +2,7 @@
 
 `g` helps you quickly access current repo's Github features from command-line:
 
-* `pr` opens current Pull Request (or "Create Pull Request" page with current branch)
+* `pr` opens current Pull Request or publishes branch and opens "Create Pull Request" page
 * `g` opens current repo on Github
 * `g pulls` opens "Pull Requests" page
 * `g issues` (`g i`) opens "Issues" page
