@@ -1,4 +1,8 @@
-# G — The missing `pr` command
+# The missing `pr` command
+
+<a href="https://www.youtube.com/watch?v=Rwtq3jy9reo">
+  <img src="https://cloud.githubusercontent.com/assets/25136/14902636/f3834202-0da4-11e6-9bb9-62de8e6e4106.gif" />
+</a>
 
 `g` helps you quickly access current repo's Github features from command-line:
 
